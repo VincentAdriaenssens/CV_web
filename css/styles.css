@@ -5,12 +5,16 @@
 }
 
 h1{
-  background-color: red;
   margin: 5%;
   display: flex;
   justify-content: center;
   padding: 2%;
   border-radius: 30px;
+  max-height: 100svh;
+  background-image: url("https://m.media-amazon.com/images/I/81M42argu+L.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -100px;
 }
 
 .profil{
@@ -44,3 +48,10 @@ footer>a{
   justify-content: center;
   padding-bottom: 1%;
 }
+
+/*body{
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://ucare.timepad.ru/974d21ce-c5cf-48c8-971e-3353a192b977/poster_event_1592337.jpg")
+}*/
