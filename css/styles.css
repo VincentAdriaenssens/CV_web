@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  background-color: red;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  border-radius: 30px;
+}
+
+.profil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+footer>table>tbody>tr{
+
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  justify-content: space-evenly
+}
+
+footer>table{
+  width: 50%
+}
+
+footer>a{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1%;
+}
