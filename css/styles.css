@@ -4,6 +4,27 @@
   box-sizing: border-box;
 }
 
+nav{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+}
+
+nav a:hover{
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 15px;
+  
+}
+
+nav a{
+  padding: 20px;
+  margin: 7px;
+  text-decoration: none;
+  color: white;
+}
+
 h1{
   margin: 5%;
   display: flex;
@@ -11,10 +32,7 @@ h1{
   padding: 2%;
   border-radius: 30px;
   max-height: 100svh;
-  background-image: url("https://m.media-amazon.com/images/I/81M42argu+L.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: -100px;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 .profil{
@@ -30,6 +48,7 @@ footer{
   gap: 10px;
   align-items: center;
 }
+
 
 footer>table>tbody>tr{
 
@@ -49,9 +68,12 @@ footer>a{
   padding-bottom: 1%;
 }
 
-/*body{
+body, html{
   background-position-y: -100px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://ucare.timepad.ru/974d21ce-c5cf-48c8-971e-3353a192b977/poster_event_1592337.jpg")
-}*/
+  background-image: url("https://m.media-amazon.com/images/I/81M42argu+L.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100svh;
+}
