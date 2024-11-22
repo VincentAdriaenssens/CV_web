@@ -5,6 +5,7 @@
 }
 
 nav{
+  margin: 1%;
   display: flex;
   text-align: center;
   justify-content: space-around;
@@ -13,15 +14,19 @@ nav{
 }
 
 nav a:hover{
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(211, 93, 93, 0.6);
   border-radius: 15px;
-  
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }
 
 nav a{
-  padding: 20px;
+  padding: 17px;
   margin: 7px;
-  text-decoration: none;
   color: white;
 }
 
@@ -32,34 +37,24 @@ h1{
   padding: 2%;
   border-radius: 30px;
   max-height: 100svh;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .profil{
   display: flex;
   justify-content: center;
   align-items: center;
+
+}
+
+#paragraphe{
+  background-color: white;
+  border-radius: 30px;
 }
 
 footer{
-  background-color: aliceblue;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  background: rgba(0, 0, 0, 0.6);
   align-items: center;
-}
-
-
-footer>table>tbody>tr{
-
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  justify-content: space-evenly
-}
-
-footer>table{
-  width: 50%
 }
 
 footer>a{
@@ -68,11 +63,23 @@ footer>a{
   padding-bottom: 1%;
 }
 
+#link{
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+}
+
+footer>h4{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
 body, html{
   background-position-y: -100px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://m.media-amazon.com/images/I/81M42argu+L.jpg");
+  background-image: url("../images/fond.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100svh;
