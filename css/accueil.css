@@ -1,0 +1,21 @@
+h1{
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  border-radius: 30px;
+  max-height: 100svh;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.profil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#paragraphe{
+  background-color: white;
+  border-radius: 30px;
+}

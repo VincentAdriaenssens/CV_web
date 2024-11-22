@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+body, html{
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/fond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100svh;
+}
+
 nav{
   margin: 1%;
   display: flex;
@@ -19,37 +29,15 @@ nav a:hover{
   color: white;
 }
 
-a{
-  text-decoration: none;
-  color: white;
-}
-
 nav a{
   padding: 17px;
   margin: 7px;
   color: white;
 }
 
-h1{
-  margin: 5%;
-  display: flex;
-  justify-content: center;
-  padding: 2%;
-  border-radius: 30px;
-  max-height: 100svh;
-  background: rgba(255, 255, 255, 0.8);
-}
-
-.profil{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-#paragraphe{
-  background-color: white;
-  border-radius: 30px;
+a{
+  text-decoration: none;
+  color: white;
 }
 
 footer{
@@ -73,14 +61,4 @@ footer>h4{
   color: white;
   display: flex;
   justify-content: center;
-}
-
-body, html{
-  background-position-y: -100px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../images/fond.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100svh;
 }
