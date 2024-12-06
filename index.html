@@ -24,7 +24,7 @@
         <tr>
             <div class="profil">
                 <img src="images/photo_profil.jpg" alt="photo" class="paragraphe" id="photo">
-                <p class="paragraphe">Actuellement en deuxième année de BUT Informatique, j’aimerais réaliser mon stage de 10 semaines commençant 1er avril afin d’approfondir mes connaissances en développement et d’acquérir davantage d’expérience dans la pratique de la méthode Agile.
+                <p class="paragraphe">Actuellement en deuxième année de BUT Informatique, j’aimerais réaliser mon stage de 10 semaines commençant le 1er avril 2025 afin d’approfondir mes connaissances en développement et d’acquérir davantage d’expérience dans la pratique de la méthode Agile.
                    Cette opportunité de travailler en entreprise me permettrait de m’orienter plus précisément sur le choix de ma future profession. 
                    J’aime le développement orienté objet, la conception d’interfaces et je suis curieux de découvrir de nouveaux langages. 
                    Pour cela, je vous invite à consulter mon site où vous trouverez mon CV, mes projets ainsi que mes coordonnées. 
@@ -34,6 +34,27 @@
     </table>
     </div>
     <h1 class="titre" id="parcours">Parcours</h1>
+    <button id="showButton"> BUT- Informatique </button>
+
+    <div class="imgParcours" id="imgParcours">
+        <img src="https://via.placeholder.com/300" alt="Image à gauche">
+        <div>
+            <h2>Voici un texte à droite de l'image</h2>
+            <p>Ceci est un exemple de texte qui s'affiche à droite de l'image lorsque vous cliquez sur le bouton.</p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript pour afficher le contenu
+        document.getElementById('showButton').addEventListener('click', function() {
+            var imgParcours = document.getElementById('imgParcours');
+            if (imgParcours.style.display === 'none' || imgParcours.style.display === '') {
+                imgParcours.style.display = 'flex';
+            } else {
+                imgParcours.style.display = 'none';
+            }
+        });
+    </script>
     <h1 class="titre" id="proj">Projets</h1>
     <h1 class="titre" id="exp">Experiences</h1>
     <h1 class="titre" id="int">Interêts</h1>
