@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Vincent Adriaenssens</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/accueil.css">
 </head>
 <body>
     <header>
@@ -17,7 +16,6 @@
         </nav>
     </header>
 
-    <div class="wrapper">
     <div id="content">
     <h1>Vincent Adriaenssens</h1>
     <table>
@@ -34,29 +32,160 @@
     </table>
     </div>
     <h1 class="titre" id="parcours">Parcours</h1>
-    <button id="showButton"> BUT- Informatique </button>
-
-    <div class="imgParcours" id="imgParcours">
-        <img src="https://via.placeholder.com/300" alt="Image à gauche">
-        <div>
-            <h2>Voici un texte à droite de l'image</h2>
-            <p>Ceci est un exemple de texte qui s'affiche à droite de l'image lorsque vous cliquez sur le bouton.</p>
+    <div id="parcoursContent">
+        <div class="paragrapheParcours"id="paragrapheParcoursBUT">
+            <h2>Bachelor Universitaire de Technologie</h2>
+            <h3><span>Université de lille.</span> 2023-2026</h3>
+            <p>Apprentissage de plusieurs notions en informatique (développement, base de données, etc).</p><br>
+            <img src="/images/IUT.jpg" alt="Image à gauche">
+        </div>
+        <div class="paragrapheParcours" id="paragrapheParcoursLycee">
+            <h2>BAC STI2D</h2>
+            <h3><span>Lycée Saint Rémi Roubaix</span> 2023</h3>
+            <p>Obtention du baccalauréat technologique (STI2D) (mention bien).</p><br>
+            <img src="/images/stRemi.jpeg" alt="Image à gauche">
         </div>
     </div>
+    <h1 class="titre" id="proj">Projets</h1>
 
-    <script>
+    <div id="main-content">
+    <div class="grid"> <!-- Une grille -->
+        <button class="grid-item" id="lce"> <!-- Un element de la grille -->
+            <img src="images/lce.png" class="image">
+            <h2>La Course de L'Éducation</h2>
+        </button>
+
+            <div class="popup" id="popuplce">
+                <div class="popup-content">
+                    <img src="images/lce.png" class="image">
+                    <h2>La Course de L'Éducation</h2>
+                    <p>Bienvenue dans La Course de l'Éducation !<br>
+                        Ce jeu se joue en solo.<br>
+                        Le but de “La course de l'éducation” est de répondre à une suite de questions sur plusieurs<br>
+                        thèmes et d’ accéder à la dernière case du plateau, la case [ # ] !<br>
+                        Les matières sont représentées par des lettres :<br>
+                        -H pour Histoire<br>
+                        -G pour Géographie<br>
+                        -A pour Anglais<br>
+                        -F pour Français<br>
+                        Il existe aussi plusieurs cases bonus et malus qui ont des attributs spéciaux...<br>
+                        Vous ếtes représenté par le caractère "@".<br>
+                        Bon courage !</p>
+                    //TODO: Image!!!
+                </div>
+
+                <span id="closeBtn1" class="close-btn">&times;</span>
+            </div>
+
+
+        <button class="grid-item" id="lamap"> <!-- Un element de la grille -->
+            <img src="images/lamap.png" class="image">
+            <h2>Làmap</h2>
+        </button>
+
+
+        <div class="popup" id="popuplamap">
+            <div class="popup-content">
+                <img src="images/lamap.png" class="image">
+                <h2>Làmap</h2>
+                <p>Bienvenue dans La Course de l'Éducation !<br>
+                    Ce jeu se joue en solo.<br>
+                    Le but de “La course de l'éducation” est de répondre à une suite de questions sur plusieurs<br>
+                    thèmes et d’ accéder à la dernière case du plateau, la case [ # ] !<br>
+                    Les matières sont représentées par des lettres :<br>
+                    -H pour Histoire<br>
+                    -G pour Géographie<br>
+                    -A pour Anglais<br>
+                    -F pour Français<br>
+                    Il existe aussi plusieurs cases bonus et malus qui ont des attributs spéciaux...<br>
+                    Vous ếtes représenté par le caractère "@".<br>
+                    Bon courage !</p>
+                //TODO: Image!!!
+            </div>
+
+            <span id="closeBtn2" class="close-btn">&times;</span>
+        </div>
+
+        <button class="grid-item" id="catacombe"> <!-- Un element de la grille -->
+            <img src="images/catacombe.png" class="image">
+            <h2>Catacombe</h2>
+        </button>
+
+
+        <div class="popup" id="popupcatacombe">
+            <div class="popup-content">
+                <img src="images/catacombe.png" class="image">
+                <h2>La Course de L'Éducation</h2>
+                <p>Bienvenue dans La Course de l'Éducation !<br>
+                    Ce jeu se joue en solo.<br>
+                    Le but de “La course de l'éducation” est de répondre à une suite de questions sur plusieurs<br>
+                    thèmes et d’ accéder à la dernière case du plateau, la case [ # ] !<br>
+                    Les matières sont représentées par des lettres :<br>
+                    -H pour Histoire<br>
+                    -G pour Géographie<br>
+                    -A pour Anglais<br>
+                    -F pour Français<br>
+                    Il existe aussi plusieurs cases bonus et malus qui ont des attributs spéciaux...<br>
+                    Vous ếtes représenté par le caractère "@".<br>
+                    Bon courage !</p>
+                //TODO: Image!!!
+            </div>
+
+            <span id="closeBtn3" class="close-btn">&times;</span>
+        </div>
+
+        <button class="grid-item" id="kfinds"> <!-- Un element de la grille -->
+            <img src="images/kfinds.png" class="image">
+            <h2>K_Finds</h2>
+        </button>
+
+
+        <div class="popup" id="popupkfinds">
+            <div class="popup-content">
+                <img src="images/kfinds.png" class="image">
+                <h2>La Course de L'Éducation</h2>
+                <p>Bienvenue dans La Course de l'Éducation !<br>
+                    Ce jeu se joue en solo.<br>
+                    Le but de “La course de l'éducation” est de répondre à une suite de questions sur plusieurs<br>
+                    thèmes et d’ accéder à la dernière case du plateau, la case [ # ] !<br>
+                    Les matières sont représentées par des lettres :<br>
+                    -H pour Histoire<br>
+                    -G pour Géographie<br>
+                    -A pour Anglais<br>
+                    -F pour Français<br>
+                    Il existe aussi plusieurs cases bonus et malus qui ont des attributs spéciaux...<br>
+                    Vous ếtes représenté par le caractère "@".<br>
+                    Bon courage !</p>
+                //TODO: Image!!!
+            </div>
+
+            <span id="closeBtn4" class="close-btn">&times;</span>
+        </div>
+    </div>
+    </div>
+
+    <script src="JS/Parcours.js"></script>
+
+    <!--<script>
         // JavaScript pour afficher le contenu
         document.getElementById('showButton').addEventListener('click', function() {
-            var imgParcours = document.getElementById('imgParcours');
+            var imgParcours = document.getElementById('parcoursBouton');
             if (imgParcours.style.display === 'none' || imgParcours.style.display === '') {
                 imgParcours.style.display = 'flex';
             } else {
                 imgParcours.style.display = 'none';
             }
         });
-    </script>
-    <h1 class="titre" id="proj">Projets</h1>
+    </script>-->
+
     <h1 class="titre" id="exp">Experiences</h1>
+
+    <div class="bouton_content">
+        <button id="showButton"> BUT- Informatique </button>
+    </div>
+
+
+
     <h1 class="titre" id="int">Interêts</h1>
     <footer>
         <h4>Contact</h4>
