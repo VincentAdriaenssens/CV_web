@@ -8,10 +8,10 @@
 <body>
     <header>
         <nav>
-            <a href="#"> Accueil</a>
             <a href="#parcours"> Parcours</a>
             <a href="#proj"> Projet</a>
             <a href="#exp"> Experience</a>
+            <a href="#comp"> Compétences</a>
             <a href="#int"> Interêt</a>
         </nav>
     </header>
@@ -23,9 +23,9 @@
             <div class="profil">
                 <img src="images/photo_profil.jpg" alt="photo" class="paragraphe" id="photo">
                 <p class="paragraphe">Actuellement en deuxième année de BUT Informatique, j’aimerais réaliser mon stage de 10 semaines commençant le 1er avril 2025 afin d’approfondir mes connaissances en développement et d’acquérir davantage d’expérience dans la pratique de la méthode Agile.
-                   Cette opportunité de travailler en entreprise me permettrait de m’orienter plus précisément sur le choix de ma future profession. 
-                   J’aime le développement orienté objet, la conception d’interfaces et je suis curieux de découvrir de nouveaux langages. 
-                   Pour cela, je vous invite à consulter mon site où vous trouverez mon CV, mes projets ainsi que mes coordonnées. 
+                   Cette opportunité de travailler en entreprise me permettrait de m’orienter plus précisément sur le choix de ma future profession.
+                   J’aime le développement orienté objet, la conception d’interfaces et je suis curieux de découvrir de nouveaux langages.
+                   Pour cela, je vous invite à consulter mon site où vous trouverez mon CV, mes projets ainsi que mes coordonnées.
                    N’hésitez pas à me contacter, je suis disponible pour toutes propositions ou questions.</p>
             </div>
         </tr>
@@ -57,9 +57,13 @@
 
             <div class="popup" id="popuplce">
                 <div class="popup-content">
+                    <div class="content_popup_titre">
                     <img src="images/lce.png" class="image">
                     <h2>La Course de L'Éducation</h2>
-                    <p>Bienvenue dans La Course de l'Éducation !<br>
+                    </div>
+                    <div class="content_popup_text">
+                    <p>Création d'un jeu ludo-pedagogique permettant aux enfants de pouvoir apprendre tout en jouant. <br>
+                        Bienvenue dans La Course de l'Éducation !<br>
                         Ce jeu se joue en solo.<br>
                         Le but de “La course de l'éducation” est de répondre à une suite de questions sur plusieurs<br>
                         thèmes et d’ accéder à la dernière case du plateau, la case [ # ] !<br>
@@ -70,8 +74,9 @@
                         -F pour Français<br>
                         Il existe aussi plusieurs cases bonus et malus qui ont des attributs spéciaux...<br>
                         Vous ếtes représenté par le caractère "@".<br>
-                        Bon courage !</p>
-                    //TODO: Image!!!
+                        Bon courage !<br></p>
+                        <img src="images/lce_jeu.png">
+                    </div>
                 </div>
 
                 <span id="closeBtn1" class="close-btn">&times;</span>
@@ -79,28 +84,25 @@
 
 
         <button class="grid-item" id="lamap"> <!-- Un element de la grille -->
-            <img src="images/lamap.png" class="image">
+            <img src="images/lamap.png" class="image" id="imglamap">
             <h2>Làmap</h2>
         </button>
 
 
         <div class="popup" id="popuplamap">
             <div class="popup-content">
+                <div class="content_popup_titre">
                 <img src="images/lamap.png" class="image">
                 <h2>Làmap</h2>
-                <p>Bienvenue dans La Course de l'Éducation !<br>
-                    Ce jeu se joue en solo.<br>
-                    Le but de “La course de l'éducation” est de répondre à une suite de questions sur plusieurs<br>
-                    thèmes et d’ accéder à la dernière case du plateau, la case [ # ] !<br>
-                    Les matières sont représentées par des lettres :<br>
-                    -H pour Histoire<br>
-                    -G pour Géographie<br>
-                    -A pour Anglais<br>
-                    -F pour Français<br>
-                    Il existe aussi plusieurs cases bonus et malus qui ont des attributs spéciaux...<br>
-                    Vous ếtes représenté par le caractère "@".<br>
-                    Bon courage !</p>
-                //TODO: Image!!!
+                </div>
+                <div class="content_popup_text">
+                    <p>Dans le cadre de ce projet en équipe de trois personnes, nous avons développé une application Java permettant de calculer l'itinéraire le plus court entre différentes destinations. <br>
+                        L’application utilise l’algorithme de Dijkstra pour trouver le plus court chemin dans un graphe de destinations, et une interface graphique a été créée avec Javafx. <br>
+                        Le travail a été réparti entre les membres : l’un s’est occupé de la conception du graphe et de l’implémentation de l’algorithme, un autre a créé l'interface utilisateur, et le dernier a intégré les différentes parties tout en gérant les tests. <br><br>
+                        Ce projet nous a permis de renforcer nos compétences en programmation Java, en algorithmique et en développement d’interfaces graphiques tout en apprenant à collaborer efficacement en équipe.<br>
+                    </p>
+                    <img src="images/lamap_int.png" id="lamap_int">
+                </div>
             </div>
 
             <span id="closeBtn2" class="close-btn">&times;</span>
@@ -108,27 +110,25 @@
 
         <button class="grid-item" id="catacombe"> <!-- Un element de la grille -->
             <img src="images/catacombe.png" class="image">
-            <h2>Catacombe</h2>
+            <h2>Catacombes</h2>
         </button>
 
 
         <div class="popup" id="popupcatacombe">
             <div class="popup-content">
-                <img src="images/catacombe.png" class="image">
-                <h2>La Course de L'Éducation</h2>
-                <p>Bienvenue dans La Course de l'Éducation !<br>
-                    Ce jeu se joue en solo.<br>
-                    Le but de “La course de l'éducation” est de répondre à une suite de questions sur plusieurs<br>
-                    thèmes et d’ accéder à la dernière case du plateau, la case [ # ] !<br>
-                    Les matières sont représentées par des lettres :<br>
-                    -H pour Histoire<br>
-                    -G pour Géographie<br>
-                    -A pour Anglais<br>
-                    -F pour Français<br>
-                    Il existe aussi plusieurs cases bonus et malus qui ont des attributs spéciaux...<br>
-                    Vous ếtes représenté par le caractère "@".<br>
-                    Bon courage !</p>
-                //TODO: Image!!!
+                <div class="content_popup_titre">
+                    <img src="images/catacombe.png" class="image">
+                    <h2>Catacombes</h2>
+                </div>
+                <div class="content_popup_text">
+                    <p>
+                        Le but de ce projet était de nous initier à la méthode de travail SCRUM en répartissant les tâches sur trois jours. <br>
+                        Nous avons formé un groupe de quatre personnes pour développer un jeu de type Rogue-Like, jouable au tour par tour, en utilisant le langage Java.<br>
+                        Dans celui-ci, nous pouvons choisir notre personnage, augmenter les stats que l'on souhait et battre des monstres de plus en plus puissant.<br>
+                        Ces monstres donneront des armes lorsqu'ils seront K.O ce qui permettra aux joueurs de personnaliser leurs types de personnages.<br>
+                        Nous l'avons nommé "CATACOMBES".<br></p>
+                    <img src="images/catacombe_jeu.png" id="catacombe_jeu">
+                </div>
             </div>
 
             <span id="closeBtn3" class="close-btn">&times;</span>
@@ -142,21 +142,18 @@
 
         <div class="popup" id="popupkfinds">
             <div class="popup-content">
+                <div class="content_popup_titre">
                 <img src="images/kfinds.png" class="image">
-                <h2>La Course de L'Éducation</h2>
-                <p>Bienvenue dans La Course de l'Éducation !<br>
-                    Ce jeu se joue en solo.<br>
-                    Le but de “La course de l'éducation” est de répondre à une suite de questions sur plusieurs<br>
-                    thèmes et d’ accéder à la dernière case du plateau, la case [ # ] !<br>
-                    Les matières sont représentées par des lettres :<br>
-                    -H pour Histoire<br>
-                    -G pour Géographie<br>
-                    -A pour Anglais<br>
-                    -F pour Français<br>
-                    Il existe aussi plusieurs cases bonus et malus qui ont des attributs spéciaux...<br>
-                    Vous ếtes représenté par le caractère "@".<br>
-                    Bon courage !</p>
-                //TODO: Image!!!
+                <h2>K_Finds</h2>
+                </div>
+                <div class="content_popup_text">
+                <p>Dans le cadre de ce projet en équipe de quatre, nous avons développé une application de classification en Java utilisant l'algorithme K-NN (K-Nearest Neighbors). <br>
+                    L'objectif était de rendre l'application capable de lire et de classifier des données à partir de fichiers CSV, ce qui a nécessité de concevoir un algorithme générique capable de traiter différents types de données. <br>
+                    Chaque membre a contribué à une partie spécifique du projet : l'implémentation de l'algorithme K-NN, la gestion du format CSV, et l'intégration d'une interface graphique intuitive pour faciliter l'interaction avec l'utilisateur. <br>
+                    Cette interface permet de charger les fichiers, afficher les résultats de la classification, et rendre l'application plus accessible. <br>
+                    Ce projet a été l'occasion de renforcer nos compétences en programmation Java, en manipulation de données et en conception d'interfaces graphiques.<br></p>
+                    <img src="images/graphe.png" id="graphe" >
+                </div>
             </div>
 
             <span id="closeBtn4" class="close-btn">&times;</span>
@@ -184,6 +181,8 @@
         <button id="showButton"> BUT- Informatique </button>
     </div>
 
+
+    <h1 class="titre" id="comp">Compétences</h1>
 
 
     <h1 class="titre" id="int">Interêts</h1>

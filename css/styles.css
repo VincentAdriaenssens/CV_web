@@ -7,7 +7,7 @@
 body, html{
   background-position-y: -100px;
   background-attachment: fixed;
-  background-image: url("../images/fond.jpg");
+  background-image: url("../images/81M42argu+L.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100svh;
@@ -211,11 +211,37 @@ h1{
   padding: 30px;
   width: 80%;
   border-radius: 10px;
-  text-align: center;
-  position: relative;
 }
 
-.popup-content>p{
-  text-align: left;
+.content_popup_text{
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
   line-height: 200%;
 }
+
+.content_popup_titre{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2%;
+}
+
+#catacombe_jeu{
+  width: 40%;
+  margin-left: 2%;
+}
+
+#lamap_int{
+  width: 18%;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+#graphe{
+  width: 45%;
+  height: 45%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
