@@ -14,7 +14,7 @@ body, html{
 }
 
 body{
-  font-family: "DejaVu Sans";
+  font-family: "DejaVu Sans", serif;
 }
 
 nav{
@@ -43,32 +43,32 @@ a{
   color: white;
 }
 
-footer{
+footer {
   background: rgba(88, 85, 85, 0.6);
-  align-items: center;
   bottom: 0;
-  width: 100%;
-  height: 100px;
-}
-
-footer>a{
-  display: flex;
-  justify-content: center;
-  padding-bottom: 1%;
-}
-
-#link{
-  display: flex;
-  justify-content: space-around;
   padding: 1%;
+  text-align: center;
 }
 
-footer>h4{
-  color: white;
+footer > a {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.link {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
 }
 
+.link > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 h1{
   margin: 5%;
   display: flex;
@@ -83,6 +83,7 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: justify;
 }
 
 .paragraphe{
@@ -94,6 +95,8 @@ h1{
   font-size: 20px;
   text-align: justify;
   border: solid black 1px;
+  line-height: 150%;
+
 }
 
 #photo{
@@ -122,18 +125,20 @@ h1{
   justify-content: center;
 }
 
-#showButton {
-  background-color: rgba(255, 255, 255, 0.6);
+.showButton {
+  display: flex;
+  margin: 1% 7%;
+  background-color: rgba(255, 255, 255, 0.9);
   color: black;
-  border: none;
+  border: solid black 1px;
   cursor: pointer;
   font-size: 30px;
-  padding: 1% 20%;
+  padding: 1% 10%;
   border-radius: 15px;
 
 }
 
-#showButton:hover {
+.showButton:hover {
   background-color: rgba(88, 85, 85, 0.6);
   color: rgb(255, 255, 255);
 }
@@ -155,6 +160,8 @@ h1{
   border-radius: 15px;
   border: solid black 1px;
 }
+
+
 
 .paragrapheParcours>h3>span{
   font-style: italic;
@@ -181,6 +188,11 @@ h1{
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 15px;
   border: solid black 1px;
+}
+
+.grid-item:hover{
+  background-color: rgba(88, 85, 85, 0.6);
+  color: rgb(255, 255, 255);
 }
 
 .image {
@@ -245,3 +257,13 @@ h1{
   margin-right: 5%;
 }
 
+#stg3{
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  border-radius: 30px;
+  max-height: 100svh;
+  width: 20%;
+  margin: 5% auto;
+  background-color: rgba(255, 255, 255, 0.9);
+}
