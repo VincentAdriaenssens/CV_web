@@ -96,7 +96,6 @@ h1{
   text-align: justify;
   border: solid black 1px;
   line-height: 150%;
-
 }
 
 #photo{
@@ -125,25 +124,8 @@ h1{
   justify-content: center;
 }
 
-.showButton {
-  display: flex;
-  margin: 1% 7%;
-  background-color: rgba(255, 255, 255, 0.9);
-  color: black;
-  border: solid black 1px;
-  cursor: pointer;
-  font-size: 30px;
-  padding: 1% 10%;
-  border-radius: 15px;
 
-}
-
-.showButton:hover {
-  background-color: rgba(88, 85, 85, 0.6);
-  color: rgb(255, 255, 255);
-}
-
-#parcoursContent{
+.parcoursContent{
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -188,11 +170,14 @@ h1{
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 15px;
   border: solid black 1px;
+
 }
 
 .grid-item:hover{
   background-color: rgba(88, 85, 85, 0.6);
   color: rgb(255, 255, 255);
+  transition: 0.5s ease-in-out;
+  scale: 1.02;
 }
 
 .image {
@@ -266,4 +251,32 @@ h1{
   width: 20%;
   margin: 5% auto;
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+.hard_skills {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: solid black 1px;
+  border-radius: 15px;
+  margin: 1%;
+  padding: 2%;
+}
+
+.hard_skills>img{
+  width: 10%;
+  height: auto;
+}
+
+.skills{
+  display: flex;
+  justify-content: center;
+}
+
+.sskill{
+  width: 35%;
+  height: auto;
+  text-align: center;
 }
