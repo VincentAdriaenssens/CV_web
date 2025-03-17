@@ -23,6 +23,9 @@ document.getElementById("catacombe").addEventListener("click", function() {
 document.getElementById("kfinds").addEventListener("click", function() {
     togglePopup("popupkfinds", "open");
 });
+document.getElementById("linkchat").addEventListener("click", function() {
+    togglePopup("popuplinkchat", "open");
+});
 
 // Fermeture des pop-ups (par clic sur la croix)
 document.getElementById("closeBtn1").addEventListener("click", function() {
@@ -35,6 +38,9 @@ document.getElementById("closeBtn3").addEventListener("click", function() {
     togglePopup("popupcatacombe", "close");
 });
 document.getElementById("closeBtn4").addEventListener("click", function() {
+    togglePopup("popupkfinds", "close");
+});
+document.getElementById("closeBtn5").addEventListener("click", function() {
     togglePopup("popupkfinds", "close");
 });
 
