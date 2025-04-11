@@ -26,6 +26,10 @@ document.getElementById("kfinds").addEventListener("click", function() {
 document.getElementById("linkchat").addEventListener("click", function() {
     togglePopup("popuplinkchat", "open");
 });
+document.getElementById("planeteio").addEventListener("click", function() {
+    togglePopup("popupplaneteio", "open");
+});
+
 
 // Fermeture des pop-ups (par clic sur la croix)
 document.getElementById("closeBtn1").addEventListener("click", function() {
@@ -41,7 +45,10 @@ document.getElementById("closeBtn4").addEventListener("click", function() {
     togglePopup("popupkfinds", "close");
 });
 document.getElementById("closeBtn5").addEventListener("click", function() {
-    togglePopup("popupkfinds", "close");
+    togglePopup("popuplinkchat", "close");
+});
+document.getElementById("closeBtn6").addEventListener("click", function() {
+    togglePopup("popupplaneteio", "close");
 });
 
 // Fermeture des pop-ups si l'utilisateur clique en dehors de la pop-up
